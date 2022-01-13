@@ -1,0 +1,68 @@
+___الصفحات___
+الرئيسية
+الدعم الفني
+تسجيل الدخول
+بيانات المسنخدم
+الاخبار
+
+
+            <الصفحات البرمجية التعليمية>
+{
+
+    Bots: [
+        ( {python, js}
+            discord,
+            telegram,
+            whats,
+            twitch
+        )
+    ],
+
+    Games: [
+        (
+            C#{unity},
+            C++{unreal ending},
+            JAVA,
+            JavaScript,
+            PYTHON{pygame},
+            [html-css-javascript]{canvas}
+        );
+    ],
+    
+    Websites: [
+        (
+            1-html
+            2-css
+            3-js
+            
+            FrontEnd {html, css, javascript, scss, svg, reactJS}
+            Backend {php, nodejs, python, asp.net}
+        )
+    ],
+
+    Applications: [
+        (
+            C#,
+            JavaScript,
+            JAVA,
+            Python
+        )
+    ],
+
+    Cypersquerte: [
+        python, JavaScript, php, c#, c++, Assembley
+        (
+            kali linux
+        )
+    ]
+
+}
+
+
+__المنصات المدعومة__
+- github
+- youtub
+- twitter
+- facebook
+- reddit
+- discord
