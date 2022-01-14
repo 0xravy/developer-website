@@ -1,5 +1,9 @@
 /* Google Fonts Import Link */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  color: #fff;
+}
+
 section.home-section {
   background: #30323e;
 }
@@ -64,7 +68,9 @@ section.home-section {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   -webkit-transition-delay: 0.1s;
-          transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .sidebar.close .logo-details .logo_name {
