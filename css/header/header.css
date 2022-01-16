@@ -16,6 +16,10 @@ section.home-section {
   font-family: 'Poppins', sans-serif;
 }
 
+.fnt {
+  font-size: 20px;
+}
+
 .sidebar {
   position: fixed;
   top: 0;
@@ -166,7 +170,7 @@ section.home-section {
 }
 
 .sidebar .nav-links li .sub-menu {
-  padding: 6px 6px 14px 80px;
+  padding: 6px 6px 14px 30px;
   margin-top: -10px;
   background: #46475a;
   display: none;
@@ -327,8 +331,12 @@ section.home-section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  left: 80px;
+  position: fixed;
+  -webkit-transition: all 1;
+  transition: all 1;
 }
 
 .home-section .home-content .bx-menu,

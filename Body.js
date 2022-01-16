@@ -1,3 +1,5 @@
+
+
 class Body extends React.Component {
     render() {
         return (
@@ -24,9 +26,19 @@ for (var i = 0; i < arrow.length; i++) {
     });
 }
 let sidebar = document.querySelector(".sidebar");
-let sidebarBtn = document.querySelector(".bx-menu");
+let sidebarBtn = document.querySelector(".home-content");
 console.log(sidebarBtn);
-sidebarBtn.addEventListener("click", function() {
-    sidebar.classList.toggle("close")
+sidebarBtn.addEventListener("click", () => {
+    sidebar.classList.toggle("close");
+    let btn =  sidebarBtn.style.left;
+    if(sidebarBtn.style.left === 250+'px') {
+        sidebarBtn.style.left = 80 + 'px';
+    } else {
+        sidebarBtn.style.left = 250 + 'px';
+    } 
 });
+
+
+
+
 // ================================================

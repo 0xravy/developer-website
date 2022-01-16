@@ -1,6 +1,4 @@
-const a = {
-    content: ['home', 'about', 'help', 'say']
-}
+
 
 class Header extends React.Component {
     render () {
@@ -72,26 +70,25 @@ class Header extends React.Component {
                             <ul class="sub-menu">
                                 <li><a class="link_name" href="#">Language</a></li>
                                 <li><a href="#">
-                                    <i class='bx bxl-html5'>HTML</i>&nbsp;&nbsp; &
-                                    <i class='bx bxl-css3'>Css</i>
+                                    <i class='bx bxl-html5 fnt'>HTML</i>&nbsp;&nbsp; &
+                                    <i class='bx bxl-css3 fnt'>Css</i>
                                 </a></li>
                                 <li><a href="#">
-                                    <i class='bx bxl-javascript' >Javascript</i>
+                                    <i class='bx bxl-javascript fnt' >Javascript</i>
                                 </a></li>
                                 <li><a href="#">
-                                    <i class='bx bxl-php'>PHP</i>
+                                    <i class='bx bxl-php fnt'>PHP</i>
                                 </a></li>
                                 <li><a href="#">
-                                    <i class='bx bxl-python'>Python</i>
+                                    <i class='bx bxl-python fnt'>Python</i>
                                 </a></li>
                                 <li><a href="#">
-                                
-                                    <i class='bx bxl-java'>Java</i>
+                                    <i class='bx bxl-java fnt'>Java</i>
                                 </a></li>
-                                <li><a href="#">
+                                <li><a href="#" class='fnt'>
                                     C#
                                 </a></li>
-                                <li><a href="#">
+                                <li><a href="#" class='fnt'>
                                     C/C++
                                 </a></li>
                             </ul>
