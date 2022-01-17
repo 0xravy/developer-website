@@ -3,4 +3,15 @@
 body {
   background-color: #30323e;
 }
+
+.m {
+  margin: 70px 0;
+}
+
+.c-card {
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */

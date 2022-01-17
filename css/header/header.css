@@ -13,7 +13,7 @@ section.home-section {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .fnt {
@@ -43,6 +43,7 @@ section.home-section {
   display: block;
   margin-top: 22px;
   margin-left: 11px;
+  z-index: 10000;
 }
 
 .sidebar .logo-details {
@@ -130,7 +131,7 @@ section.home-section {
   min-width: 78px;
   text-align: center;
   line-height: 50px;
-  color: #fff;
+  color: #fbfcff;
   font-size: 20px;
   cursor: pointer;
   -webkit-transition: all 0.3s ease;
@@ -172,7 +173,7 @@ section.home-section {
 .sidebar .nav-links li .sub-menu {
   padding: 6px 6px 14px 30px;
   margin-top: -10px;
-  background: #46475a;
+  background: #000;
   display: none;
 }
 
@@ -180,7 +181,7 @@ section.home-section {
   display: block;
 }
 
-.sidebar .nav-links li .sub-menu a {
+.sidebar .nav-links li .sub-menu a i {
   color: #fff;
   font-size: 15px;
   padding: 5px 0;
@@ -188,6 +189,9 @@ section.home-section {
   opacity: 0.6;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .sidebar .nav-links li .sub-menu a:hover {
@@ -312,12 +316,12 @@ section.home-section {
 
 .home-section {
   position: relative;
-  background: #E4E9F7;
   height: 100vh;
-  left: 260px;
-  width: calc(100% - 260px);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  left: 80px;
+  width: calc(100% - 80px);
+  background-color: #11101d;
 }
 
 .sidebar.close ~ .home-section {
@@ -337,6 +341,7 @@ section.home-section {
   position: fixed;
   -webkit-transition: all 1;
   transition: all 1;
+  top: 0;
 }
 
 .home-section .home-content .bx-menu,
@@ -355,9 +360,9 @@ section.home-section {
   font-weight: 600;
 }
 
-@media (max-width: 420px) {
-  .sidebar.close .nav-links li .sub-menu {
-    display: none;
-  }
+.fnt {
+  color: #000;
+  text-align: center;
+  margin: auto;
 }
 /*# sourceMappingURL=header.css.map */

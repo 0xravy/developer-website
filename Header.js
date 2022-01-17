@@ -68,29 +68,39 @@ class Header extends React.Component {
                                 <i class='bx bxs-chevron-down arrow' ></i>
                             </div>
                             <ul class="sub-menu">
+
+
                                 <li><a class="link_name" href="#">Language</a></li>
+                                
                                 <li><a href="#">
-                                    <i class='fab fa-html5 fnt'> HTML </i>&nbsp;&nbsp; &
-                                    <i class='fab fa-css3 fnt'> Css </i>
+                                    <i class='fnt fab fa-html5'>HTML<i class='fnt fab fa-css3'>Css </i></i>
                                 </a></li>
+
                                 <li><a href="#">
-                                    <i class='fab fa-js-square' > Javascript </i>
+                                    <i class='fnt fab fa-js-square' > Javascript </i>
                                 </a></li>
+
                                 <li><a href="#">
-                                    <i class='fab fa-php fnt'> PHP</i>
+                                    <i class='fnt fab fa-php'> PHP</i>
                                 </a></li>
+
                                 <li><a href="#">
-                                    <i class="fab fa-python"> Python </i>
+                                    <i class="fnt fab fa-python"> Python </i>
                                 </a></li>
+  
                                 <li><a href="#">
-                                    <i class="fab fa-java"> Java </i>
+                                    <i class="fnt fab fa-java"> Java </i>
                                 </a></li>
-                                <li><a href="#" class='fab fa- fnt'>
-                                    <i class="fab fa-slack-hash">C#</i>
+
+                                <li><a href="#">
+                                    <i class="fnt fas fa-hashtag">C#</i>
                                 </a></li>
-                                <li><a href="#" class='fab fa- fnt'>
-                                    <i class='bx bxl-c-plus-plus'>C/C++</i>
+
+                                <li><a href="#">
+                                    <i class='fnt bx bxl-c-plus-plus '>C/C++</i>
                                 </a></li>
+
+
                             </ul>
                         </li>
 
