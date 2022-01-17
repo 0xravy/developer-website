@@ -70,26 +70,26 @@ class Header extends React.Component {
                             <ul class="sub-menu">
                                 <li><a class="link_name" href="#">Language</a></li>
                                 <li><a href="#">
-                                    <i class='bx bxl-html5 fnt'>HTML</i>&nbsp;&nbsp; &
-                                    <i class='bx bxl-css3 fnt'>Css</i>
+                                    <i class='fab fa-html5 fnt'> HTML </i>&nbsp;&nbsp; &
+                                    <i class='fab fa-css3 fnt'> Css </i>
                                 </a></li>
                                 <li><a href="#">
-                                    <i class='bx bxl-javascript fnt' >Javascript</i>
+                                    <i class='fab fa-js-square' > Javascript </i>
                                 </a></li>
                                 <li><a href="#">
-                                    <i class='bx bxl-php fnt'>PHP</i>
+                                    <i class='fab fa-php fnt'> PHP</i>
                                 </a></li>
                                 <li><a href="#">
-                                    <i class='bx bxl-python fnt'>Python</i>
+                                    <i class="fab fa-python"> Python </i>
                                 </a></li>
                                 <li><a href="#">
-                                    <i class='bx bxl-java fnt'>Java</i>
+                                    <i class="fab fa-java"> Java </i>
                                 </a></li>
-                                <li><a href="#" class='fnt'>
-                                    C#
+                                <li><a href="#" class='fab fa- fnt'>
+                                    <i class="fab fa-slack-hash">C#</i>
                                 </a></li>
-                                <li><a href="#" class='fnt'>
-                                    C/C++
+                                <li><a href="#" class='fab fa- fnt'>
+                                    <i class='bx bxl-c-plus-plus'>C/C++</i>
                                 </a></li>
                             </ul>
                         </li>
