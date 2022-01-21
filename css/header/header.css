@@ -41,13 +41,12 @@ section.home-section {
   height: 50px;
   border-radius: 100px;
   display: block;
-  margin-top: 22px;
   margin-left: 11px;
   z-index: 10000;
 }
 
 .sidebar .logo-details {
-  height: 60px;
+  height: 70px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -75,7 +74,6 @@ section.home-section {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
   margin-left: 20px;
-  margin-top: 20px;
 }
 
 .sidebar.close .logo-details .logo_name {
@@ -184,7 +182,7 @@ section.home-section {
 .sidebar .nav-links li .sub-menu a i {
   color: #fff;
   font-size: 15px;
-  padding: 5px 0;
+  padding: 2px 0;
   white-space: nowrap;
   opacity: 0.6;
   -webkit-transition: all 0.3s ease;
@@ -319,14 +317,14 @@ section.home-section {
   height: 100vh;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  left: 80px;
+  left: 78px;
   width: calc(100% - 80px);
   background-color: #11101d;
 }
 
 .sidebar.close ~ .home-section {
   left: 78px;
-  width: calc(100% - 78px);
+  width: calc(100% - 80px);
 }
 
 .home-section .home-content {

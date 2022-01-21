@@ -1,4 +1,7 @@
-
+let text = `
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, quas cupiditate? Odit obcaecati expedita quod eveniet repudiandae ratione iusto, deleniti porro tempora minus quam eos nobis quisquam, tenetur beatae earum?
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta magnam repellendus repellat quisquam, sed ipsam sint nobis incidunt doloribus porro, dolore consectetur eum, nihil quas officiis nostrum distinctio necessitatibus labore.
+`;
 
 class Body extends React.Component {
     render() {
@@ -12,17 +15,19 @@ class Body extends React.Component {
 
                     <div class="c-card">
                         <div class="c-img">
-                            <img src=""  alt="img error" />
+                            <img src="https://wallpaper.dog/large/5558117.png"  alt="img error" />
                         </div>
-                        <h1 class="c-title">
-                            aravan
-                        </h1>
-                        <p class="c-text">
-                            welcome to this website
-                        </p>
-                        <button class="c-btn">
-                            click me
-                        </button>
+                        <div class="c-content">
+                            <h1 class="c-title">
+                                aravan
+                            </h1>
+                            <p class="c-text">
+                                {text}
+                            </p>
+                            <button class="c-btn">
+                                click me
+                            </button>
+                        </div>
                     </div>
             </section>
         );
@@ -50,12 +55,15 @@ sidebarBtn.addEventListener("click", () => {
     let btn =  sidebarBtn.style.left;
     if(sidebarBtn.style.left === 250+'px') {
         sidebarBtn.style.left = 80 + 'px';
-        homeSection.style.left =  80 + 'px';
-        homeSection.style.width = calc(100% - 80);
+        homeSection.style.left =  78 + 'px';
+        // homeSection.style.width = "calc(100% - 80+'px')";
+        homeSection.style.setProperty('width', 'calc(100% - 88px)');
+
     } else {
         sidebarBtn.style.left = 250 + 'px';
         homeSection.style.left =  250 + 'px';
-        homeSection.style.width = calc(100% - 250);
+        // homeSection.style.width = "calc(100% - 250+'px')";
+        homeSection.style.setProperty('width', 'calc(100% - 250px)');
     }
 });
 // ================================================
