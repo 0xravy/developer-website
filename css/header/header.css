@@ -351,6 +351,7 @@ section.home-section {
 .home-section .home-content .bx-menu {
   margin: 0 15px;
   cursor: pointer;
+  color: #fff
 }
 
 .home-section .home-content .text {
