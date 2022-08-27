@@ -2,7 +2,7 @@
     مشوع لي عمل موقع عملاق لتعليم البرمجة 
 </h1>
 
-***https://aravns.github.io/DeveloperWebsite/***
+***https://aravns.github.io/developer-website/***
 <h3>
     الموقع تحت الانشاء
 </h3>
